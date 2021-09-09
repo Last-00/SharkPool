@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:id="@+id/lose_layout">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold"
+        android:text="Score: 0"
+        android:id="@+id/lose_score"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:background="@drawable/lose_tv"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:id="@+id/best_score"
+        android:textStyle="bold"
+        android:text="Best score: 0"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:background="@drawable/lose_tv"
+        android:layout_gravity="center"/>
+    <Button
+        android:layout_width="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:id="@+id/btn_restart"
+        android:layout_height="wrap_content"
+        android:background="@drawable/restart"/>
+    <Button
+        android:layout_width="80dp"
+        android:layout_gravity="center"
+        android:id="@+id/btn_home"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/home"/>
+
+
+</LinearLayout>
